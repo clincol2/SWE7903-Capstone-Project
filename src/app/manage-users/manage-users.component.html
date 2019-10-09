@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <title>Bootstrap Example</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+    <div class="col text-center">
+        <div *ngIf="this.show_expiration_flag">
+            <br>
+            <h3 class="text-center" style="color: red">Your session has expired. Log back in to continue...</h3>
+        </div>
+        <br>
+        <br>
+
+
+        <h3>Manage Users</h3>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+
+        <br>
+
+        <div *ngFor="let name of service.alphabet; let i=index">
+            
+            <br>
+            <app-manage-user-view index={{i}}></app-manage-user-view>
+
+            <br>
+
+        </div>
+
+
+
+        <!--             <div *ngFor = "let name of service.alphabet">
+
+                    <br>
+                        <app-manage-user-view [members]=members></app-manage-user-view>
+
+                </div>
+-->
+
+    </div>
+
+</body>
+
+
+
+
+</html>

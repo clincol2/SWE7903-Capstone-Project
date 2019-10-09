@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div *ngIf="service.userRole != 'user'">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li style=""><button class="btn btn-link" (click)="masterCalendarPage()">Master Calendar</button></li>
+          <li><button class="btn btn-link" (click)="activeProjectsPage()">Active Projects</button> </li>
+          <li><button class="btn btn-link" (click)="completedProjectsPage()">Completed Projects</button></li>
+          <div style="float: right">
+            <div *ngIf="service.flag ">
+
+              <button type="button" class="btn btn-link" style="float:right" data-toggle="modal" data-target="#myModal">Logout</button>
+              <li style="float : right"><button class="btn btn-link" (click)="profilePage()">Profile</button></li>
+              <li style="float : right"><button class="btn btn-link" (click)="yourProjectPage()">Your Projects</button></li>
+              <li style="float : right"><button class="btn btn-link" (click)="createUserPage()">Create User</button></li>
+              <li style="float : right"><button class="btn btn-link" (click)="manageUsersPage()">Manage Users</button></li>
+
+            </div>
+          </div>
+          <div style="float: right">
+            <div *ngIf="!service.flag">
+              <button class="btn btn-link" (click)="loginPage()">Login</button>
+            </div>
+
+          </div>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-left">
+          <img src="assets/logo-gas-south.png" class="gas_south_img">Home
+
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+
+  <div *ngIf="service.userRole == 'user'">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><button class="btn btn-link" (click)="masterCalendarPage()">Master Calendar</button></li>
+          <li><button class="btn btn-link" (click)="activeProjectsPage()">Active Projects</button> </li>
+          <li><button class="btn btn-link" (click)="yourProjectPage()">Your Projects</button></li>
+          <li><button class="btn btn-link" (click)="completedProjectsPage()">Completed Projects</button></li>
+          <li ><button class="btn btn-link" (click)="profilePage()">Profile</button></li>
+
+          <li>
+            <div *ngIf="service.flag ">
+              <button type="button" class="btn btn-link" style="float:right" data-toggle="modal" data-target="#myModal">Logout</button>
+
+            </div>
+            <div *ngIf="!service.flag">
+              <button class="btn btn-link" (click)="loginPage()">Login</button>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-left">
+
+          <img src="assets/logo-gas-south.png" class="gas_south_img">Home
+
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+
+
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color: rgb(151, 3, 3); font-size: 18pt">Are you sure you want to logout?</h4>
+        </div>
+        <div class="modal-body">
+          <br>
+
+          <div class="second">
+            <div class="col-md-12 text-center">
+              <form>
+                <button class="btn btn-danger btn-lg" type="submit" (click)="logout()" data-dismiss="modal"> Yes
+                </button>
+                <button class="btn btn-primary btn-lg" data-dismiss="modal" type="submit">Cancel </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  = <br>
+
+  <router-outlet></router-outlet>
