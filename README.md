@@ -1,7 +1,7 @@
 # SWE7903-Capstone-Project
 Repo for our Capstone Project
 
-Roster:
+# Roster:
 1. Chloe Lincoln (Leader)
   * LinkedIn: https://www.linkedin.com/in/chloe-lincoln-52a75178/
 2. Raghuram Bandi
@@ -11,3 +11,10 @@ Roster:
   * LinkedIn: https://www.linkedin.com/in/shamira-b-178525166/
 5. Young Chung
   * LinkedIn: https://www.linkedin.com/in/youngsangchung/
+
+# Source Code:
+Link:
+
+# User Manual:
+Link:
+
