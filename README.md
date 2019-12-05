@@ -5,6 +5,7 @@ Repo for our Capstone Project
 1. Chloe Lincoln (Leader)
   * LinkedIn: https://www.linkedin.com/in/chloe-lincoln-52a75178/
 2. Raghuram Bandi
+ * linkedin.com/in/raghu-b-9aa03040
 3. Phillip DaCosta
   * LinkedIn: https://www.linkedin.com/in/phillip-dacosta-7442a253/
 4. Shamira Bright
@@ -23,5 +24,5 @@ Link to PowerPoint: https://drive.google.com/file/d/1DGvGRapeIRAmnN56QGYVvDDun51
 Link to Video: https://drive.google.com/file/d/1MG5SdbVupZ1sFAmXH2cHlyNe8gmQWJOE/view?usp=sharing
 
 # Marketing Demonstration View
-Link to Video:
+Link to Video: https://drive.google.com/file/d/1zbjcHQ3dUU8u1mrVPXEy0f6e6f7ERhFZ/view?usp=sharing
 
