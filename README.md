@@ -1,5 +1,8 @@
 # SWE7903-Capstone-Project
-Repo for our Capstone Project
+Currently, there are no Release Management personnel or applications at Gas South. They are using a Project Management tool, Innotas, to keep track of all updates on projects taken on by the IT/PMO department. While Innotas (owned by PlanView) provides a detailed view of all project releases, it is not widely known to the business. The application is also overwhelming to view since there is more information available than needed for the business partners to view. 
+
+The goal of the Release Management Tool this team is developing will provide a high-level view of the project release information. It will also provide Project Managers a way to view other project’s releases on a calendar and can best schedule release date for upcoming projects. 
+
 
 # Roster:
 1. Chloe Lincoln (Leader)
