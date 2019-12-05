@@ -23,6 +23,6 @@ Link: https://github.com/clincol2/SWE7903-Capstone-Project/blob/master/SWE%20790
 Link to PowerPoint: https://drive.google.com/file/d/1DGvGRapeIRAmnN56QGYVvDDun51aZwvy/view?usp=sharing
 Link to Video: https://drive.google.com/file/d/1MG5SdbVupZ1sFAmXH2cHlyNe8gmQWJOE/view?usp=sharing
 
-# Marketing Demonstration View
+# Marketing Demonstration Video
 Link to Video: https://drive.google.com/file/d/1zbjcHQ3dUU8u1mrVPXEy0f6e6f7ERhFZ/view?usp=sharing
 
