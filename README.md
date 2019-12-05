@@ -8,7 +8,7 @@ The goal of the Release Management Tool this team is developing will provide a h
 1. Chloe Lincoln (Leader)
   * LinkedIn: https://www.linkedin.com/in/chloe-lincoln-52a75178/
 2. Raghuram Bandi
- * linkedin.com/in/raghu-b-9aa03040
+ * LinkedIn: https://www.linkedin.com/in/raghu-b-9aa03040
 3. Phillip DaCosta
   * LinkedIn: https://www.linkedin.com/in/phillip-dacosta-7442a253/
 4. Shamira Bright
