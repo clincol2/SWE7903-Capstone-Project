@@ -16,5 +16,12 @@ Repo for our Capstone Project
 Link: https://github.com/phillipdacosta/SWE7903-Capstone-Project/tree/develop
 
 # User Manual:
-Link:
+Link: https://github.com/clincol2/SWE7903-Capstone-Project/blob/master/SWE%207903%20Team%203%20RMA%20User%20Manual.docx
+
+# Final Presentation
+Link to PowerPoint: https://drive.google.com/file/d/1DGvGRapeIRAmnN56QGYVvDDun51aZwvy/view?usp=sharing
+Link to Video: https://drive.google.com/file/d/1MG5SdbVupZ1sFAmXH2cHlyNe8gmQWJOE/view?usp=sharing
+
+# Marketing Demonstration View
+Link to Video:
 
